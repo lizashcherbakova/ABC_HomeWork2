@@ -28,15 +28,6 @@ void errMessage2() {
 
 int main(int argc, char** argv)
 {
-    argc = 5;
-    argv = new char*[5];
-    argv[0] = "abc_hw";
-    argv[1] = "-f";
-    argv[2] = "in6.txt";
-    argv[3] = "out1.txt";
-    argv[4]  = "out2.txt";
-
-
     if(argc != 5) {
         errMessage1();
         return 1;
